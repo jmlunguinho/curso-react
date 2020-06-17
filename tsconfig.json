@@ -13,6 +13,9 @@
     "rootDir": "src",
     "baseUrl": "src",
     "paths": {
+      "@/*" : ["*"]
+    },
+    "paths": {
       "@/*": ["*"]
     },
     "allowJs": true,
