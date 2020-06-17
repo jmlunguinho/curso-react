@@ -15,11 +15,12 @@
     "paths": {
       "@/*" : ["*"]
     },
-    "paths": {
-      "@/*": ["*"]
-    },
     "allowJs": true,
-    "resolveJsonModule": true
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": true
   },
   "include": [
     "src"
