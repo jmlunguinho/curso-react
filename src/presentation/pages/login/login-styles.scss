@@ -47,7 +47,7 @@ button {
       font-size: 20px;
       text-transform: uppercase;
     }
-    
+
     input[type="password"],
     input[type="email"] {
       border: 1px solid $primaryLight;
@@ -73,20 +73,6 @@ button {
 
       &:hover {
         text-decoration: underline;
-      }
-    }
-
-    .errorWrap {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      .spinner{
-        margin-top: 30px;
-      }
-
-      .error {
-        margin-top: 30px;
-        color: $primaryLight;
       }
     }
   }
